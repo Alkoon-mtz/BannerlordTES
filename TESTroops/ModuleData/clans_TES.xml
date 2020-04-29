@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+
+  <Faction id="clan_thalmor_1"
+           initial_posX="480"
+           initial_posY="290"
+           name="Thalmor"
+           short_name="Thalmor"
+           tier="6"
+           owner="Hero.thalmorlord_1"
+           culture="Culture.thalmor"
+           super_faction="Kingdom.thethalmor"
+           banner_key="11.154.116.1536.1536.768.768.1.0.0.133.15.155.483.483.773.729.0.0.0"
+           label_color="FF7CAFC7"
+           color="FF7CAFC7"
+           color2="FF7CAFC7"
+           alternative_color="FF7CAFC7"
+           alternative_color2="FF7CAFC7"
+           default_party_template="PartyTemplate.kingdom_hero_party_thalmor_template"
+           settlement_banner_mesh="encounter_flag_f">
+  </Faction>
+  
+</Factions>

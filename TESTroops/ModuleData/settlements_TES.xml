@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settlements>
+
+<!-- Windhelm o-->
+  <Settlement id="town_K1" name="{=Settlements.Settlement.name.town_K1}Windhelm" owner="Faction.clan_thalmor_1" posX="732.485" posY="536.545" culture="Culture.thalmor" prosperity="2000" gate_posX="730.3407" gate_posY="536.892">
+  </Settlement>
+
+<!-- Riften o-->
+  <Settlement id="town_A4" name="{=Settlements.Settlement.name.town_A4}Riften" owner="Faction.clan_thalmor_1" posX="608.801" posY="178.967" culture="Culture.thalmor" prosperity="4500" gate_posX="610.5481" gate_posY="176.2253">
+  </Settlement>
+
+<!-- Dawnstar o-->
+  <Settlement id="town_S2" name="{=Settlements.Settlement.name.town_S2}Dawnstar" owner="Faction.clan_thalmor_1" posX="467.158" posY="570.245" culture="Culture.thalmor" prosperity="2300" gate_posX="468.2623" gate_posY="565.6448">
+  </Settlement>
+
+<!-- Winterhold o-->
+  <Settlement id="town_S5" name="{=Settlements.Settlement.name.town_S5}Winterhold" owner="Faction.clan_thalmor_1" posX="647.079" posY="569.108" culture="Culture.thalmor" prosperity="1700" gate_posX="651.0615" gate_posY="568.5306">
+  </Settlement>
+
+<!-- Fort Kastav o-->
+  <Settlement id="castle_K6" name="{=Settlements.Settlement.name.castle_K6}Fort Kastav" owner="Faction.clan_thalmor_1" posX="695.454" posY="573.924" culture="Culture.thalmor" prosperity="720" gate_posX="693.9964" gate_posY="572.9048">
+  </Settlement>
+
+<!-- Driftshade Refuge o-->
+<Settlement id="castle_S7" name="{=Settlements.Settlement.name.castle_S7}Driftshade Refuge" owner="Faction.clan_thalmor_1" posX="666.54" posY="553.695" culture="Culture.thalmor" prosperity="660" gate_posX="666.8344" gate_posY="555.4324">
+  </Settlement>
+
+<!-- Morvunskar o-->
+  <Settlement id="castle_K9" name="{=Settlements.Settlement.name.castle_K9}Morvunskar" owner="Faction.clan_thalmor_1" posX="707.905" posY="547.462" culture="Culture.thalmor" prosperity="620" gate_posX="707.2891" gate_posY="546.1161">
+  </Settlement>
+
+<!-- Ivarstead o-->
+  <Settlement id="town_A8" name="{=Settlements.Settlement.name.town_A8}Ivarstead" owner="Faction.clan_thalmor_1" posX="490.694" posY="163.097" culture="Culture.thalmor" prosperity="3500" gate_posX="489.0013" gate_posY="160.3215">
+  </Settlement>
+
+<!-- Heljarchen Hall o-->
+  <Settlement id="town_EN3" name="{=Settlements.Settlement.name.town_EN3}Heljarchen Hall" owner="Faction.clan_thalmor_1" posX="513.339" posY="419.099" culture="Culture.thalmor" prosperity="4600" gate_posX="516.5862" gate_posY="416.1982">
+  </Settlement>
+
+
+
+<!-- Solitude o-->
+  <Settlement id="town_V9" name="{=Settlements.Settlement.name.town_V9}Solitude" owner="Faction.clan_thalmor_1" posX="179.501" posY="548.785" culture="Culture.thalmor" prosperity="2800" gate_posX="176.1519" gate_posY="545.7867">
+  </Settlement>
+
+<!-- Markarth o-->
+  <Settlement id="town_V5" name="{=Settlements.Settlement.name.town_V5}Markarth" owner="Faction.clan_thalmor_1" posX="107.5" posY="411.689" culture="Culture.thalmor" prosperity="1900" gate_posX="111.4947" gate_posY="409.1742">
+  </Settlement>
+
+<!-- Whiterun o-->
+  <Settlement id="town_ES4" name="{=Settlements.Settlement.name.town_ES4}Whiterun" owner="Faction.clan_thalmor_1" posX="515.33" posY="333.562" culture="Culture.thalmor" prosperity="3800" gate_posX="517.5825" gate_posY="329.8356">
+  </Settlement>
+
+<!-- Falkreath o-->
+  <Settlement id="town_A7" name="{=Settlements.Settlement.name.town_A7}Falkreath" owner="Faction.clan_thalmor_1" posX="379.425" posY="118.472" culture="Culture.thalmor" prosperity="2100" gate_posX="380.7408" gate_posY="119.9328">
+  </Settlement>
+
+<!-- Morthal o-->
+  <Settlement id="town_B4" name="{=Settlements.Settlement.name.town_B4}Morthal" owner="Faction.clan_thalmor_1" posX="329.92" posY="474.32" culture="Culture.thalmor" prosperity="2400" gate_posX="327.1309" gate_posY="473.0402">
+  </Settlement>
+
+<!-- Dragon Bridge o-->
+ <Settlement id="town_V8" name="{=Settlements.Settlement.name.town_V8}Dragon Bridge" owner="Faction.clan_thalmor_1" posX="135.09" posY="547.52" culture="Culture.thalmor" prosperity="3900" gate_posX="137.2299" gate_posY="542.0079">
+  </Settlement>
+
+<!-- Helgen o-->
+  <Settlement id="town_A3" name="{=Settlements.Settlement.name.town_A3}Helgen" owner="Faction.clan_thalmor_1" posX="493.537" posY="111.731" culture="Culture.thalmor" prosperity="1800" gate_posX="492.1278" gate_posY="114.4006">
+  </Settlement>
+
+<!-- Riverwood o-->
+  <Settlement id="town_ES3" name="{=Settlements.Settlement.name.town_ES3}Riverwood" owner="Faction.clan_thalmor_1" posX="471.018" posY="269.821" culture="Culture.thalmor" prosperity="4500" gate_posX="472.3768" gate_posY="268.0157">
+  </Settlement>
+
+<!-- Rorikstead o-->
+  <Settlement id="town_EW4" name="{=Settlements.Settlement.name.town_EW4}Rorikstead" owner="Faction.clan_thalmor_1" posX="304.702" posY="331.418" culture="Culture.thalmor" prosperity="5600" gate_posX="306.2194" gate_posY="334.3485">
+  </Settlement>
+
+
+
+
+
+<!-- Thalmor Embassy o-->
+  <Settlement id="castle_V5" name="{=Settlements.Settlement.name.castle_V5}Thalmor Embassay" owner="Faction.clan_thalmor_1" posX="165.989" posY="564.639" culture="Culture.vlandia" prosperity="630" gate_posX="164.9052" gate_posY="564.4557">
+  </Settlement>
+
+
+
+
+
+
+<!-- Fort Dawnguard -->
+  <Settlement id="town_A5" name="{=Settlements.Settlement.name.town_A5}Fort Dawnguard" owner="Faction.clan_thalmor_1" posX="561.609" posY="119.752" culture="Culture.aserai" prosperity="3200" gate_posX="558.9596" gate_posY="121.2922">
+  </Settlement>
+
+
+
+
+
+</Settlements>

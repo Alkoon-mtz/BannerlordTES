@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+      <MBPartyTemplate id="kingdom_hero_party_thalmor_template" >
+    <stacks>
+    <!-- Normal Troops -->
+      <PartyTemplateStack min_value="12" max_value="16" troop="NPCCharacter.thalmor_recruit" /> 
+      <PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.thalmor_militia" /> 
+      <PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.thalmor_woodsman" /> 
+      <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.thalmor_fighter" /> 
+      <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.thalmor_sentry" /> 
+      <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.thalmor_scout" /> 
+      <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.thalmor_hunter" /> 
+      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.thalmor_warrior" /> 
+      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.thalmor_guard" />
+      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.thalmor_spearman" />
+      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.thalmor_cavalry" />
+      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.thalmor_spotter" />
+      <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.thalmor_bowman" />
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.thalmor_veteran" />
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.thalmor_houseguard" />
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.thalmor_pikeman" />   
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.thalmor_charger" />     
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.thalmor_outrider" /> 
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.thalmor_archer" /> -->
+    <!-- Youth Tree
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.imperial_equite" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.imperial_equite" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.imperial_heavy_horseman" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.imperial_cataphract" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.imperial_cataphract" />
+    -->
+    </stacks>
+  </MBPartyTemplate>
+    <MBPartyTemplate id="villager_thalmor_template" >
+      <stacks>
+        <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_thalmor" />
+      </stacks>
+    </MBPartyTemplate>
+  <MBPartyTemplate id="elite_caravan_template_thalmor" >
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_thalmor" />
+      <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_thalmor" />
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_thalmor" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_thalmor" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="caravan_template_thalmor" >
+    <stacks>
+      <PartyTemplateStack  min_value="8" max_value="8" troop="NPCCharacter.armed_trader_thalmor" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_thalmor" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_thalmor" />
+    </stacks>
+  </MBPartyTemplate>
+    <MBPartyTemplate id="militia_thalmor_template" >
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.thalmor_militia_spearman" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.thalmor_militia_archer" />
+      </stacks>
+    </MBPartyTemplate>
+  <MBPartyTemplate id="rebels_thalmor_template" >
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.thalmor_recruit" />
+    </stacks>
+  </MBPartyTemplate>
+</partyTemplates>

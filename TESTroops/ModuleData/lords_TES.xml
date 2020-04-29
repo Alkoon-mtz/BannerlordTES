@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+<!-- Thalmor - Elenwen -->
+  <NPCCharacter id="thalmorlord_1" name="Elenwen" age="60" voice="curt" is_hero="true" is_female="true" default_group="Infantry" battleTemplate="NPCCharacter.empire_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" culture="Culture.thalmor" occupation="Lord">
+    <face>
+      <!--face_key value="0000C002C00016037E7654EC9E59DEDC135E88467549B87774454A498E9571F701B776130BDDE75B00000000000000000000000000000000000000003D844002" /-->
+      <BodyProperties version="4" weight="0.4" build="0.8" key="001180015158100A7C7FD4FFAFC0F0E77EF676FFE2CF96432D0647398C95F28701F776130FEBF57100000000000000000000000000000000000000007DFC1003" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="150" />
+      <skill id="Riding"
+             value="150" />
+      <skill id="OneHanded"
+             value="150" />
+      <skill id="TwoHanded"
+             value="150" />
+      <skill id="Polearm"
+             value="150" />
+      <skill id="Bow"
+             value="150" />
+      <skill id="Crossbow"
+             value="150" />
+      <skill id="Throwing"
+             value="150" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+
+<!-- Thalmor - Rulindil -->
+  <NPCCharacter id="thalmorlord_2" name="Rulindil" age="60" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.empire_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" culture="Culture.thalmor" occupation="Lord">
+    <face>
+      <!--face_key value="0000C002C00016037E7654EC9E59DEDC135E88467549B87774454A498E9571F701B776130BDDE75B00000000000000000000000000000000000000003D844002" /-->
+      <BodyProperties version="4" weight="0.4" build="0.4" key="00118000005800027C7FD4FFAFC0F0E77EF676FFE2CF96432D0647398C95F28701D77613FDEBF57100000000000000000000000000000000000000007DBC1003" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="150" />
+      <skill id="Riding"
+             value="150" />
+      <skill id="OneHanded"
+             value="150" />
+      <skill id="TwoHanded"
+             value="150" />
+      <skill id="Polearm"
+             value="150" />
+      <skill id="Bow"
+             value="150" />
+      <skill id="Crossbow"
+             value="150" />
+      <skill id="Throwing"
+             value="150" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+
+<!-- Thalmor - Ancarion -->
+  <NPCCharacter id="thalmorlord_3" name="Ancarion" age="67" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.empire_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" culture="Culture.thalmor" occupation="Lord">
+    <face>
+      <!--face_key value="0000C002C00016037E7654EC9E59DEDC135E88467549B87774454A498E9571F701B776130BDDE75B00000000000000000000000000000000000000003D844002" /-->
+      <BodyProperties version="4" weight="0.4" build="0.3" key="00168000005820037C7FD4FFAFC0F0E77EF676FFE7CF96432D0647398C95F28701D77613FDEBF57100000000000000000000000000000000000000007DBC2003" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="150" />
+      <skill id="Riding"
+             value="150" />
+      <skill id="OneHanded"
+             value="150" />
+      <skill id="TwoHanded"
+             value="150" />
+      <skill id="Polearm"
+             value="150" />
+      <skill id="Bow"
+             value="150" />
+      <skill id="Crossbow"
+             value="150" />
+      <skill id="Throwing"
+             value="150" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+
+<!-- Thalmor - Ondolemar -->
+  <NPCCharacter id="thalmorlord_4" name="Ondolemar" age="57" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.empire_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" culture="Culture.thalmor" occupation="Lord">
+    <face>
+      <!--face_key value="0000C002C00016037E7654EC9E59DEDC135E88467549B87774454A498E9571F701B776130BDDE75B00000000000000000000000000000000000000003D844002" /-->
+      <BodyProperties version="4" weight="0.4" build="0.7" key="000B8002D45836417C7FD4FFAFC0F0E77EF676FFE7CF96432D0647398C95F28701C77613FCEBF57100000000000000000000000000000000000000007D8430C3" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="150" />
+      <skill id="Riding"
+             value="150" />
+      <skill id="OneHanded"
+             value="150" />
+      <skill id="TwoHanded"
+             value="150" />
+      <skill id="Polearm"
+             value="150" />
+      <skill id="Bow"
+             value="150" />
+      <skill id="Crossbow"
+             value="150" />
+      <skill id="Throwing"
+             value="150" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+
+<!-- Thalmor - Ancano -->
+  <NPCCharacter id="thalmorlord_5" name="Ancano" age="53" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.empire_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" culture="Culture.thalmor" occupation="Lord">
+    <face>
+      <!--face_key value="0000C002C00016037E7654EC9E59DEDC135E88467549B87774454A498E9571F701B776130BDDE75B00000000000000000000000000000000000000003D844002" /-->
+      <BodyProperties version="4" weight="0.2" build="0.4" key="00000802C0580644EF7FD4FFAFC0F0E77EF676FFE7CFF61F2D0647398C95FD8701C77613FCEBF57100000000000000000000000000000000000000007D8430C3" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="150" />
+      <skill id="Riding"
+             value="150" />
+      <skill id="OneHanded"
+             value="150" />
+      <skill id="TwoHanded"
+             value="150" />
+      <skill id="Polearm"
+             value="150" />
+      <skill id="Bow"
+             value="150" />
+      <skill id="Crossbow"
+             value="150" />
+      <skill id="Throwing"
+             value="150" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+
+<!-- Thalmor - Captain Valmir -->
+  <NPCCharacter id="thalmorlord_6" name="Captain Valmir" age="41" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.empire_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" culture="Culture.thalmor" occupation="Lord">
+    <face>
+      <!--face_key value="0000C002C00016037E7654EC9E59DEDC135E88467549B87774454A498E9571F701B776130BDDE75B00000000000000000000000000000000000000003D844002" /-->
+      <BodyProperties version="4" weight="0.2" build="0.4" key="0000080000580640EF7FD4FFAFC0F0E77EF676FFE7CFF61F2D0647398C95FD8701977613F9EBF57100000000000000000000000000000000000000007D2C30C3" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="150" />
+      <skill id="Riding"
+             value="150" />
+      <skill id="OneHanded"
+             value="150" />
+      <skill id="TwoHanded"
+             value="150" />
+      <skill id="Polearm"
+             value="150" />
+      <skill id="Bow"
+             value="150" />
+      <skill id="Crossbow"
+             value="150" />
+      <skill id="Throwing"
+             value="150" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+
+<!-- Thalmor - Estormo -->
+  <NPCCharacter id="thalmorlord_7" name="Estormo" age="44" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.empire_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" culture="Culture.thalmor" occupation="Lord">
+    <face>
+      <!--face_key value="0000C002C00016037E7654EC9E59DEDC135E88467549B87774454A498E9571F701B776130BDDE75B00000000000000000000000000000000000000003D844002" /-->
+      <BodyProperties version="4" weight="0.6" build="0.6" key="0011080013580046EF7FD4FFAFC0F0E77EF676FFE7CFF61F2D0647398C95FD8701977613F9EBF57100000000000000000000000000000000000000007D2C30C3" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="150" />
+      <skill id="Riding"
+             value="150" />
+      <skill id="OneHanded"
+             value="150" />
+      <skill id="TwoHanded"
+             value="150" />
+      <skill id="Polearm"
+             value="150" />
+      <skill id="Bow"
+             value="150" />
+      <skill id="Crossbow"
+             value="150" />
+      <skill id="Throwing"
+             value="150" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+
+<!-- Thalmor - Lorcalin -->
+  <NPCCharacter id="thalmorlord_8" name="Lorcalin" age="32" voice="curt" is_hero="true" default_group="Infantry" battleTemplate="NPCCharacter.empire_lord_lady_battle_equipment" civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" culture="Culture.thalmor" occupation="Lord">
+    <face>
+      <!--face_key value="0000C002C00016037E7654EC9E59DEDC135E88467549B87774454A498E9571F701B776130BDDE75B00000000000000000000000000000000000000003D844002" /-->
+      <BodyProperties version="4" weight="0.2" build="0.3" key="00167C001BFC02C8EF7FD4FFAFC0F0E77EF676FFE7CFF61F2D0647398C95FD8701977613F9EBF57100000000000000000000000000000000000000007D2C30C3" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="150" />
+      <skill id="Riding"
+             value="150" />
+      <skill id="OneHanded"
+             value="150" />
+      <skill id="TwoHanded"
+             value="150" />
+      <skill id="Polearm"
+             value="150" />
+      <skill id="Bow"
+             value="150" />
+      <skill id="Crossbow"
+             value="150" />
+      <skill id="Throwing"
+             value="150" />
+    </skills>
+    <Traits>
+    </Traits>
+  </NPCCharacter>
+
+</NPCCharacters>

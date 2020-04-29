@@ -1,0 +1,1324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters> 
+
+<!-- Face Templates -->
+
+   <NPCCharacter id="thalmor"
+                default_group="Infantry"
+                level="1"
+                name="{=JMZiICD8}Thalmor Recruit"
+                occupation="Soldier"
+                culture="Culture.thalmor"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties    version="4" 
+                         age="22.82" 
+                         weight="0.3531" 
+                         build="0.3657"  
+                      key="00128001405800017C7FD4FFAFC0F0E77EF676FFE2CF96432D0647398C95F28701C776130CEBF57100000000000000000000000000000000000000007D841003" />
+      <BodyPropertiesMax version="4" 
+                         age="59.47" 
+                         weight="0.5447" 
+                         build="0.6003"  
+                         key="00168001405820057C7FDBFFAFC0F8E77EF67CFFE6CFC6432D0647398C95F28701F776130FEBF57100000000000000000000000000000000000000007DF42003" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.cloth_tunic" />
+      <equipment slot="Cape"
+                 id="Item.hood" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.throwing_stone" />
+      <equipment slot="Item1"
+                 id="Item.peasant_polearm_1_t1" />
+      <equipment slot="Cape"
+                 id="Item.hood" />
+      <equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+    <upgrade_targets>
+    </upgrade_targets>
+  </NPCCharacter>
+
+   <NPCCharacter id="thalmor_woman"
+                default_group="Infantry"
+                level="1"
+                name="{=JMZiICD8}Thalmor Woman"
+                occupation="Soldier"
+                culture="Culture.thalmor"
+                skill_template="NPCCharacter.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties    version="4" 
+                         age="22.82" 
+                         weight="0.3531" 
+                         build="0.3657"  
+                      key="00128001405800017C7FD4FFAFC0F0E77EF676FFE2CF96432D0647398C95F28701C776130CEBF57100000000000000000000000000000000000000007D841003" />
+      <BodyPropertiesMax version="4" 
+                         age="59.47" 
+                         weight="0.5447" 
+                         build="0.6003"  
+                         key="00168001405820057C7FDBFFAFC0F8E77EF67CFFE6CFC6432D0647398C95F28701F776130FEBF57100000000000000000000000000000000000000007DF42003" />
+    </face>
+    <skills></skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Body"
+                 id="Item.cloth_tunic" />
+      <equipment slot="Cape"
+                 id="Item.hood" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.throwing_stone" />
+      <equipment slot="Item1"
+                 id="Item.peasant_polearm_1_t1" />
+      <equipment slot="Cape"
+                 id="Item.hood" />
+      <equipment slot="Body"
+                 id="Item.tunic_with_rolled_cloth" />
+      <equipment slot="Leg"
+                 id="Item.strapped_shoes" />
+    </equipmentSet>
+    <upgrade_targets>
+    </upgrade_targets>
+  </NPCCharacter>
+
+
+
+<!-- Tier 1 Troops -->
+<!-- thalmor Recruit -->
+  <NPCCharacter id="thalmor_recruit"
+                default_group="Infantry"
+                level="6"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Recruit"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="5" />
+      <skill id="OneHanded" value="20" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="10" />
+      <skill id="Bow" value="10" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="10" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.wrapped_headcloth" />
+      <equipment slot="Body" id="Item.nordic_tunic" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Cape" id="Item.wrapped_scarf" />
+    </equipmentSet>
+    <upgrade_targets>
+        <upgrade_target id="NPCCharacter.thalmor_militia" />
+        <upgrade_target id="NPCCharacter.thalmor_woodsman" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Tier 2 Troops -->
+<!-- thalmor Militia -->
+<NPCCharacter id="thalmor_militia"
+                default_group="Infantry"
+                level="11"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Militia"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="40" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="40" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="40" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.battania_civil_hood" />
+      <equipment slot="Body" id="Item.bandit_gambeson" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.wrapped_scarf" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_fighter" />
+      <upgrade_target id="NPCCharacter.thalmor_sentry" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!--thalmor Woodsman-->
+<NPCCharacter id="thalmor_woodsman"
+                default_group="Infantry"
+                level="11"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Woodsman"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="40" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="15" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item1" id="Item.peasant_2haxe_1_t1" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.wrapped_headcloth" />
+      <equipment slot="Body" id="Item.long_hemp_tunic" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_scout" />
+      <upgrade_target id="NPCCharacter.thalmor_hunter" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Tier 3 -->
+<!-- thalmor Fighter -->
+<NPCCharacter id="thalmor_fighter"
+                default_group="Infantry"
+                level="16"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Fighter"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="60" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="10" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_warrior" />
+      <upgrade_target id="NPCCharacter.thalmor_guard" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- thalmor Sentry -->
+<NPCCharacter id="thalmor_sentry"
+                default_group="Infantry"
+                level="16"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Sentry"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="60" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="10" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.simple_pike_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+    </equipmentSet>
+    <upgrade_targets>
+        <upgrade_target id="NPCCharacter.thalmor_spearman" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- thalmor Scout -->
+<NPCCharacter id="thalmor_scout"
+                default_group="Cavalry"
+                level="16"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Scout"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="15" />
+      <skill id="Riding" value="70" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="10" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="70" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="10" />
+      <skill id="Scouting" value="20" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item1" id="western_javelin_1_t2" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.scale_armor" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.battania_horse" />
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_cavalry" />
+      <upgrade_target id="NPCCharacter.thalmor_spotter" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- thalmor Hunter -->
+<NPCCharacter id="thalmor_hunter"
+                default_group="Ranged"
+                level="16"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Hunter"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="10" />
+      <skill id="Polearm" value="10" />
+      <skill id="Bow" value="70" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="70" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.composite_bow" />
+      <equipment slot="Item1" id="Item.steppe_arrows" />
+      <equipment slot="Item2" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Head" id="Item.thinhide_coif" />
+      <equipment slot="Body" id="Item.battania_woodland_outfit" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_bowman" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Tier 4 -->
+<!-- thalmor Warrior -->
+<NPCCharacter id="thalmor_warrior"
+                default_group="Infantry"
+                level="21"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Warrior"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="110" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_2hsword_1_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.ranger_mail" />
+      <equipment slot="Cape" id="Item.armored_bearskin" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_veteran" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- thalmor Guard -->
+<NPCCharacter id="thalmor_guard"
+                default_group="Infantry"
+                level="21"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Guard"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="110" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+      <equipment slot="Cape" id="Item.armored_bearskin" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_houseguard" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- thalmor Spearman -->
+<NPCCharacter id="thalmor_spearman"
+                default_group="Infantry"
+                level="21"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Spearman"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="110" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.simple_pike_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.ranger_mail" />
+      <equipment slot="Cape" id="Item.bearskin" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_pikeman" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- thalmor Watchman -->
+<!--<NPCCharacter id="thalmor_watchman"
+                default_group="Infantry"
+                level="21"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Watchman"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="110" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.simple_pike_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+      <equipment slot="Cape" id="Item.bearskin" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+    </equipmentSet>
+    <upgrade_targets>
+    </upgrade_targets>
+  </NPCCharacter>-->
+<!-- thalmor Cavalry -->
+<NPCCharacter id="thalmor_cavalry"
+                default_group="Cavalry"
+                level="21"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Cavalry"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="65" />
+      <skill id="Riding" value="100" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item1" id="Item.highland_riders_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.battania_horse" />
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_charger" />
+    </upgrade_targets>
+</NPCCharacter>
+<!-- thalmor Spotter -->
+<NPCCharacter id="thalmor_spotter"
+                default_group="HorseArcher"
+                level="21"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Spotter"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="15" />
+      <skill id="Riding" value="100" />
+      <skill id="OneHanded" value="15" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="110" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="110" />
+      <skill id="Scouting" value="40" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.composite_bow" />
+      <equipment slot="Item1" id="Item.steppe_arrows" />
+      <equipment slot="Item2" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.scale_armor" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.battania_horse" />
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_outrider" />
+    </upgrade_targets>
+</NPCCharacter>
+<!-- thalmor Bowman -->
+<NPCCharacter id="thalmor_bowman"
+                default_group="Ranged"
+                level="21"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Bowman"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="15" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="110" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="110" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.composite_bow" />
+      <equipment slot="Item1" id="Item.steppe_arrows" />
+      <equipment slot="Item2" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Head" id="Item.imperial_leather_coif" />
+      <equipment slot="Body" id="Item.layered_leather_tunic" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <upgrade_targets>
+          <upgrade_target id="NPCCharacter.thalmor_archer" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- thalmor Tracker -->
+<!---->
+<!--<NPCCharacter id="thalmor_tracker"
+                default_group="Ranged"
+                level="21"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Tracker"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="110" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.composite_bow" />
+      <equipment slot="Item1" id="Item.steppe_arrows" />
+      <equipment slot="Item2" id="Item.sturgia_sword_1_t2" />
+      <equipment slot="Head" id="Item.battania_civil_hood" />
+      <equipment slot="Body" id="Item.long_hemp_tunic" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+    </equipmentSet>
+    <upgrade_targets>
+    </upgrade_targets>
+  </NPCCharacter> -->
+<!-- Tier 5 -->
+<!-- thalmor Veteran -->
+<NPCCharacter id="thalmor_veteran"
+                default_group="Infantry"
+                level="26"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Veteran"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="130" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="160" />
+      <skill id="TwoHanded" value="160" />
+      <skill id="Polearm" value="20" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_2hsword_1_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+      <equipment slot="Body" id="Item.battania_mercenary_armor" />
+      <equipment slot="Cape" id="Item.armored_bearskin" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_sworn_sword" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- thalmor Houseguard -->
+<NPCCharacter id="thalmor_houseguard"
+                default_group="Infantry"
+                level="26"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Houseguard"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="130" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="160" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="20" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.highland_riders_shield" />
+      <equipment slot="Body" id="Item.battania_noble_armor" />
+      <equipment slot="Cape" id="Item.armored_bearskin" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_warden" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- thalmor Pikeman -->
+<NPCCharacter id="thalmor_pikeman"
+                default_group="Infantry"
+                level="26"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Pikeman"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="130" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="20" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="160" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="70" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.fine_pike_t4" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.highland_riders_shield" />
+      <equipment slot="Item3" id="Item.western_javelin_1_t2" />
+      <equipment slot="Head" id="Item.peaked_helmet_over_padded_cloth" />
+      <equipment slot="Body" id="Item.battania_noble_armor" />
+      <equipment slot="Cape" id="Item.armored_bearskin" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_halberdier" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- thalmor Defender -->
+<!-- thalmor Charger -->
+<NPCCharacter id="thalmor_charger"
+                default_group="Cavalry"
+                level="26"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Charger"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="130" />
+      <skill id="OneHanded" value="160" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="160" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.fine_pike_t4" />
+      <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.highland_riders_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+      <equipment slot="Cape" id="Item.armored_bearskin" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.battania_horse" />
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_vanguard" />
+    </upgrade_targets>
+</NPCCharacter>
+<!-- thalmor Outrider -->
+<NPCCharacter id="thalmor_outrider"
+                default_group="HorseArcher"
+                level="26"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Outrider"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="130" />
+      <skill id="OneHanded" value="20" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="20" />
+      <skill id="Bow" value="160" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="160" />
+      <skill id="Scouting" value="60" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.composite_bow" />
+      <equipment slot="Item1" id="Item.steppe_arrows" />
+      <equipment slot="Item2" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item3" id="Item.western_javelin_1_t2" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.scale_armor" />
+      <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.battania_horse" />
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_freerider" />
+    </upgrade_targets>
+</NPCCharacter>
+<!-- thalmor Archer -->
+<NPCCharacter id="thalmor_archer"
+                default_group="Ranged"
+                level="26"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Archer"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="130" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="130" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="20" />
+      <skill id="Bow" value="130" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="130" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.composite_bow" />
+      <equipment slot="Item1" id="Item.steppe_arrows" />
+      <equipment slot="Item2" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Head" id="Item.imperial_mail_coif" />
+      <equipment slot="Body" id="Item.scale_armor" />
+      <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.thalmor_longbowman" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- thalmor Ranger -->
+<!-- Tier 6 -->
+<!-- thalmor Sworn Sword -->
+<NPCCharacter id="thalmor_sworn_sword"
+                default_group="Infantry"
+                level="31"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Sworn Sword"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="225" />
+      <skill id="Riding" value="25" />
+      <skill id="OneHanded" value="220" />
+      <skill id="TwoHanded" value="220" />
+      <skill id="Polearm" value="25" />
+      <skill id="Bow" value="25" />
+      <skill id="Crossbow" value="25" />
+      <skill id="Throwing" value="25" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_2hsword_1_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.battanian_noble_helmet_with_feather" />
+      <equipment slot="Body" id="Item.battania_warlord_armor" />
+      <equipment slot="Cape" id="Item.battania_cloak_furr" />
+      <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
+      <equipment slot="Leg" id="Item.battania_warlord_boots" />
+    </equipmentSet>
+    <upgrade_targets>
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- thalmor Warden -->
+<NPCCharacter id="thalmor_warden"
+                default_group="Infantry"
+                level="31"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Warden"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="225" />
+      <skill id="Riding" value="25" />
+      <skill id="OneHanded" value="220" />
+      <skill id="TwoHanded" value="25" />
+      <skill id="Polearm" value="25" />
+      <skill id="Bow" value="25" />
+      <skill id="Crossbow" value="25" />
+      <skill id="Throwing" value="220" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+      <equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item2" id="Item.highland_riders_shield" />
+      <equipment slot="Head" id="Item.battanian_crowned_helmet" />
+      <equipment slot="Body" id="Item.battania_warlord_armor" />
+      <equipment slot="Cape" id="Item.battania_warlord_pauldrons" />
+      <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
+      <equipment slot="Leg" id="Item.battania_warlord_boots" />
+    </equipmentSet>
+    <upgrade_targets>
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- thalmor Halberdier-->
+<NPCCharacter id="thalmor_halberdier"
+                default_group="Infantry"
+                level="31"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Halberdier"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="225" />
+      <skill id="Riding" value="25" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="25" />
+      <skill id="Polearm" value="220" />
+      <skill id="Bow" value="25" />
+      <skill id="Crossbow" value="25" />
+      <skill id="Throwing" value="110" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.vlandia_polearm_1_t5" />
+      <equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+      <equipment slot="Item2" id="Item.highland_riders_shield" />
+      <equipment slot="Item3" id="Item.western_javelin_1_t2" />
+      <equipment slot="Head" id="Item.peaked_helmet_over_mail_coif" />
+      <equipment slot="Body" id="Item.battania_warlord_armor" />
+      <equipment slot="Cape" id="Item.battania_warlord_pauldrons" />
+      <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
+      <equipment slot="Leg" id="Item.battania_warlord_boots" />
+    </equipmentSet>
+    <upgrade_targets>
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- thalmor Sentinel -->
+<!-- thalmor Vanguard -->
+<NPCCharacter id="thalmor_vanguard"
+                default_group="Cavalry"
+                level="31"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Vanguard"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="25" />
+      <skill id="Riding" value="225" />
+      <skill id="OneHanded" value="220" />
+      <skill id="TwoHanded" value="25" />
+      <skill id="Polearm" value="220" />
+      <skill id="Bow" value="25" />
+      <skill id="Crossbow" value="25" />
+      <skill id="Throwing" value="25" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.fine_pike_t4" />
+      <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+      <equipment slot="Item2" id="Item.highland_riders_shield" />
+      <equipment slot="Body" id="Item.battania_mercenary_armor" />
+      <equipment slot="Cape" id="Item.armored_bearskin" />
+      <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
+      <equipment slot="Leg" id="Item.battania_warlord_boots" />
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.battania_horse" />
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
+    <upgrade_targets>
+    </upgrade_targets>
+</NPCCharacter>
+<!-- thalmor Freerider -->
+<NPCCharacter id="thalmor_freerider"
+                default_group="HorseArcher"
+                level="31"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Freerider"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="25" />
+      <skill id="Riding" value="225" />
+      <skill id="OneHanded" value="25" />
+      <skill id="TwoHanded" value="25" />
+      <skill id="Polearm" value="25" />
+      <skill id="Bow" value="220" />
+      <skill id="Crossbow" value="25" />
+      <skill id="Throwing" value="220" />
+      <skill id="Scouting" value="80" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.composite_bow" />
+      <equipment slot="Item1" id="Item.steppe_arrows" />
+      <equipment slot="Item2" id="Item.sturgia_axe_2_t2" />
+      <equipment slot="Item3" id="Item.western_javelin_1_t2" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+      <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.battania_horse" />
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
+    <upgrade_targets>
+    </upgrade_targets>
+</NPCCharacter>
+<!-- thalmor Longbowman -->
+<NPCCharacter id="thalmor_longbowman"
+                default_group="Ranged"
+                level="31"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="thalmor Longbowman"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="225" />
+      <skill id="Riding" value="25" />
+      <skill id="OneHanded" value="220" />
+      <skill id="TwoHanded" value="25" />
+      <skill id="Polearm" value="25" />
+      <skill id="Bow" value="220" />
+      <skill id="Crossbow" value="25" />
+      <skill id="Throwing" value="220" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.woodland_longbow" />
+      <equipment slot="Item1" id="Item.steppe_arrows" />
+      <equipment slot="Item2" id="Item.sturgia_axe_2_t2" /> 
+      <equipment slot="Head" id="Item.imperial_nasal_helm" />
+      <equipment slot="Body" id="Item.rough_fur_over_chain" />
+      <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+    </equipmentSet>
+    <upgrade_targets>
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- thalmor Pathfinder -->
+<!-- Stark Youth -->
+<NPCCharacter id="stark_youth"
+                default_group="Infantry"
+                level="11"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="Stark Youth"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="60" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="60" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="60" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+      <equipment slot="Item3" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.rough_fur_armor" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.battania_cloak_furr" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.stark_young_wolf" />
+    </upgrade_targets>
+  </NPCCharacter>
+<!-- Stark Young Wolf -->
+<NPCCharacter id="stark_young_wolf"
+                default_group="Infantry"
+                level="16"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="Stark Young Wolf"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="90" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="90" />
+      <skill id="TwoHanded" value="80" />
+      <skill id="Polearm" value="90" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+      <equipment slot="Item3" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.ranger_mail" />
+      <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <equipment slot="Cape" id="Item.battania_cloak_furr" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.stark_swordsman" />
+    </upgrade_targets>
+</NPCCharacter>
+<!-- Stark Swordsman -->
+<NPCCharacter id="stark_swordsman"
+                default_group="Infantry"
+                level="21"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="Stark Swordsman"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="120" />
+      <skill id="Riding" value="120" />
+      <skill id="OneHanded" value="130" />
+      <skill id="TwoHanded" value="130" />
+      <skill id="Polearm" value="130" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+      <equipment slot="Item3" id="Item.highland_scouts_shield" />
+      <equipment slot="Head" id="Item.battania_fur_helmet" />
+      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape" id="Item.battania_cloak_furr" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+    </equipmentSet>
+      <equipment slot="Horse" id="Item.battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness" />
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.stark_swordmaster" />
+    </upgrade_targets>
+</NPCCharacter>
+<!-- Stark Swordmaster -->
+<NPCCharacter id="stark_swordmaster"
+                default_group="Infantry"
+                level="26"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="Stark Swordmaster"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="150" />
+      <skill id="Riding" value="150" />
+      <skill id="OneHanded" value="180" />
+      <skill id="TwoHanded" value="180" />
+      <skill id="Polearm" value="180" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+      <equipment slot="Item3" id="Item.highland_riders_shield" />
+      <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+      <equipment slot="Body" id="Item.battania_mercenary_armor" />
+      <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+      <equipment slot="Cape" id="Item.battania_cloak_furr" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+    </equipmentSet>
+      <equipment slot="Horse" id="Item.battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness" />
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.stark_wolfguard" />
+    </upgrade_targets>
+</NPCCharacter>
+<!-- Stark Wolfguard -->
+<NPCCharacter id="stark_wolfguard"
+                default_group="Infantry"
+                level="31"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="Stark Wolfguard"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="245" />
+      <skill id="Riding" value="245" />
+      <skill id="OneHanded" value="240" />
+      <skill id="TwoHanded" value="240" />
+      <skill id="Polearm" value="240" />
+      <skill id="Bow" value="25" />
+      <skill id="Crossbow" value="25" />
+      <skill id="Throwing" value="25" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+      <equipment slot="Item3" id="Item.highland_riders_shield" />
+      <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+      <equipment slot="Body" id="Item.battania_warlord_armor" />
+      <equipment slot="Leg" id="Item.battania_warlord_boots" />
+      <equipment slot="Cape" id="Item.battania_cloak_furr" />
+      <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
+    </equipmentSet>
+      <equipment slot="Horse" id="Item.t2_battania_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled" />
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.stark_dire_wolfguard" />
+    </upgrade_targets>
+</NPCCharacter>
+<!-- Stark Dire Wolfguard -->
+<NPCCharacter id="stark_dire_wolfguard"
+                default_group="Infantry"
+                level="36"
+                civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
+                name="Stark Dire Wolfguard"
+                occupation="Soldier"
+                is_basic_troop="false"
+                culture="Culture.thalmor">
+    <face>
+      <face_key_template value="NPCCharacter.thalmor" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="320" />
+      <skill id="Riding" value="320" />
+      <skill id="OneHanded" value="320" />
+      <skill id="TwoHanded" value="320" />
+      <skill id="Polearm" value="320" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="30" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+      <equipment slot="Item1" id="Item.battania_2hsword_3_t3" />
+      <equipment slot="Item2" id="Item.battania_mace_2_t2" />
+      <equipment slot="Item3" id="Item.highland_riders_shield" />
+      <equipment slot="Head" id="Item.battanian_noble_helmet_with_feather" />
+      <equipment slot="Body" id="Item.battania_warlord_armor" />
+      <equipment slot="Leg" id="Item.battania_warlord_boots" />
+      <equipment slot="Cape" id="Item.battania_cloak_furr" />
+      <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.t2_battania_horse" />
+    <equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
+    <upgrade_targets>
+    </upgrade_targets>
+</NPCCharacter>
+</NPCCharacters>
